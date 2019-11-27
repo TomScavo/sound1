@@ -1,5 +1,5 @@
 
-var audio = new Audio('https://cdn.musicbed.com/video/authenticated/s--I0LUjcCx--/af_48000,br_96k,du_30/ac_vorbis/v1554920665/production/songs/24242.ogg');
+var audio = document.getElementById('audio');
 
 var playInfo = document.getElementById('info');
 
