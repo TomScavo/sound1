@@ -1,5 +1,5 @@
 
-var audio = document.getElementById('audio');
+var audio = new Audio('https://tomscavo.github.io/sound/music.mp');
 
 var playInfo = document.getElementById('info');
 
@@ -11,8 +11,8 @@ var button = document.createElement('button');
 button.style = "background: #333; width: 100px; height: 50px; left: 50%; top: 50%; color: #fff;";
 button.innerText = '播放';
 button.addEventListener('click', () => {
-        isPlay ? audio.pause() : audio.play()
-        button.innerText = isPlay ? '播放' : '暂停';
+    isPlay ? audio.pause() : audio.play()
+    button.innerText = isPlay ? '播放' : '暂停';
         isPlay = !isPlay
     }
 )
