@@ -11,8 +11,8 @@ var button = document.createElement('div');
 button.style = "background: #333; width: 100px; height: 50px; left: 50%; top: 50%; color: #fff;";
 button.innerText = '播放';
 button.addEventListener('click', () => {
-        button.innerText = isPlay ? '暂停' : '播放';
         isPlay ? audio.pause() : audio.play()
+        button.innerText = isPlay ? '播放' : '暂停';
         isPlay = !isPlay
     }
 )
