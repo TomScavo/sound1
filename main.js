@@ -1,5 +1,5 @@
 
-var audio = new Audio('https://tomscavo.github.io/sound/music.mp');
+var audio = new Audio('https://tomscavo.github.io/sound/music.mp3');
 
 var playInfo = document.getElementById('info');
 
